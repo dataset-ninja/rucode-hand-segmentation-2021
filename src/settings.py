@@ -20,12 +20,12 @@ HIDE_DATASET = True  # set False when 100% sure about repo quality
 ##################################
 # * After uploading to instance ##
 ##################################
-LICENSE: License = None
-APPLICATIONS: List[Union[Industry, Domain, Research]] = None
-CATEGORY: Category = None
+LICENSE: License = License.Unknown()
+APPLICATIONS: List[Union[Industry, Domain, Research]] = [Research.Biological()]
+CATEGORY: Category = Category.Biology()
 
-CV_TASKS: List[CVTask] = [CVTask.SematicSegmentation()]
-ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.SematicSegmentation()]
+CV_TASKS: List[CVTask] = [CVTask.SemanticSegmentation()]
+ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.SemanticSegmentation()]
 
 RELEASE_DATE: Optional[str] = None  # e.g. "YYYY-MM-DD"
 if RELEASE_DATE is None:
@@ -34,7 +34,7 @@ if RELEASE_DATE is None:
 HOMEPAGE_URL: str = "https://www.kaggle.com/competitions/rucode-hand-segmentation/"
 # e.g. "https://some.com/dataset/homepage"
 
-PREVIEW_IMAGE_ID: int = None
+PREVIEW_IMAGE_ID: int = 4730043
 # This should be filled AFTER uploading images to instance, just ID of any image.
 
 GITHUB_URL: str = "https://github.com/dataset-ninja/rucode-hand-segmentation-2021"
