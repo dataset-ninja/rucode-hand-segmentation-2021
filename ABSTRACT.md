@@ -1,0 +1,1 @@
+**RuCode Hand Segmentation 2021 dataset** is a task from a Competition on semantic segmentation of hands that display various numbers from the ASL hard alphabet.
