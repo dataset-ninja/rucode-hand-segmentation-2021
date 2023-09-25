@@ -1,4 +1,4 @@
-**RuCode Hand Segmentation 2021** is a dataset for a semantic segmentation task. It is used in the entertainment industry. 
+**RuCode Hand Segmentation 2021** is a dataset for a semantic segmentation task. Possible applications of the dataset could be in the entertainment industry. 
 
 The dataset consists of 26026 images with 124920 labeled objects belonging to 6 different classes including *palm*, *thumb_finger*, *pointer_finger*, and other: *middle_finger*, *fourth_finger*, and *little_finger*.
 
