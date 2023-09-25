@@ -1,0 +1,1 @@
+License is unknown for the RuCode Hand Segmentation 2021 dataset.
