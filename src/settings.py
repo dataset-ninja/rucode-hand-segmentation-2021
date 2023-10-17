@@ -53,7 +53,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 # Use dict key to specify name for a button
 PAPER: Optional[Union[str, List[str], Dict[str, str]]] = None
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
-REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"Alternative Kaggle source":"https://www.kaggle.com/datasets/unfriendlyai/rucode-hand-segmentation"}
+REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"Kaggle":"https://www.kaggle.com/datasets/unfriendlyai/rucode-hand-segmentation"}
 
 CITATION_URL: Optional[str] = "https://www.kaggle.com/competitions/rucode-hand-segmentation/"
 AUTHORS: Optional[List[str]] = ["Tatiana Gaintseva"]
